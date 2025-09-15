@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/descripciones.css">
+    <title>descripciones</title>
+</head>
+<body>
+<!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1>LuxTime</h1>
+            </div>
+            <ul class="nav-menu">
+                <li> <a href="../index.html">Inicio</a></li>
+                <li><a href="../html/catalogo.html">Catalogo</a></li>
+                <li><a href="../html/historia.html">Historia</a></li>
+                <li><a href="../html/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header> 
+    <div class="container">
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb">
+            <ol>
+                <li><a href="#">Inicio</a></li>
+                <li>/</li>
+                <li><a href="#">Relojes</a></li>
+                <li>/</li>
+                <li class="current">Reloj Clásico Premium</li>
+            </ol>
+        </nav>
+
+        <div class="product-layout">
+            <!-- Imagen Principal con Zoom -->
+            <div class="image-section">
+                <div class="main-image-container">
+                    <img src="../img/img_catalogo/reloj6.jpg" 
+                        alt="Reloj Clásico Premium" 
+                        class="main-image">
+                </div>
+                
+                <!-- Miniaturas -->
+                <div class="thumbnails">
+                    <div class="thumbnail active">
+                        <img src="../img/image_nuevo/perspectiva2.jpg" alt="Vista frontal">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="../img/image_nuevo/perspectiva1.jpg" alt="Vista lateral">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="../img/image_nuevo/trasra.jpg" alt="Vista trasera">
+                    </div>
+                    <div class="thumbnail">
+                        <img src="../img/image_nuevo/correa.jpg" alt="Detalle correa">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Información del Producto -->
+            <div class="product-info">
+                <div class="product-header">
+                    <h1>Modern Steel</h1>
+                    <div class="price">$2,899</div>
+                    <p class="description">
+                    Acero pulido con diseño contemporáneo, perfecto para el día a día y ocasiones especiales.
+                    </p>
+                </div>
+
+                <!-- Descripción Técnica -->
+                <div class="specs-card">
+                    <h3>Especificaciones Técnicas</h3>
+                    <div class="specs-grid">
+                        <div>
+                            <div class="spec-item">
+                                <span class="spec-label">Material:</span>
+                                <span class="spec-value">Acero inoxidable 316L</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Diámetro:</span>
+                                <span class="spec-value">42mm</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Grosor:</span>
+                                <span class="spec-value">11mm</span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="spec-item">
+                                <span class="spec-label">Peso:</span>
+                                <span class="spec-value">85g</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Resistencia:</span>
+                                <span class="spec-value">50m (5ATM)</span>
+                            </div>
+                            <div class="spec-item">
+                                <span class="spec-label">Movimiento:</span>
+                                <span class="spec-value">Cuarzo suizo</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Opciones de Personalización -->
+                <div class="customization-section">
+                    <!-- Selección de Grabado -->
+                    <div class="option-card">
+                        <h3>Grabado Personalizado</h3>
+                        <div class="engraving-options">
+                            <label class="option-item">
+                                <input type="radio" name="engraving" value="none" class="custom-radio" checked>
+                                <div class="option-content">
+                                    <div class="option-title">Sin grabado</div>
+                                    <div class="option-description">Mantener el diseño original</div>
+                                </div>
+                                <div class="option-price free">Gratis</div>
+                            </label>
+                            
+                            <label class="option-item">
+                                <input type="radio" name="engraving" value="initials" class="custom-radio">
+                                <div class="option-content">
+                                    <div class="option-title">Iniciales (máx. 3 letras)</div>
+                                    <div class="option-description">Grabado en la parte trasera</div>
+                                </div>
+                                <div class="option-price">+€15</div>
+                            </label>
+                            
+                            <label class="option-item">
+                                <input type="radio" name="engraving" value="message" class="custom-radio">
+                                <div class="option-content">
+                                    <div class="option-title">Mensaje personalizado</div>
+                                    <div class="option-description">Hasta 20 caracteres</div>
+                                </div>
+                                <div class="option-price">+€25</div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Cambio de Correa -->
+                    <div class="option-card">
+                        <h3>Tipo de Correa</h3>
+                        <div class="strap-options">
+                            <label class="strap-option">
+                                <input type="radio" name="strap" value="leather-brown" class="strap-radio" checked>
+                                <div class="strap-card">
+                                    <div class="strap-preview strap-brown"></div>
+                                    <div class="strap-name">Cuero Marrón</div>
+                                    <div class="strap-price">Incluido</div>
+                                </div>
+                            </label>
+                            
+                            <label class="strap-option">
+                                <input type="radio" name="strap" value="leather-black" class="strap-radio">
+                                <div class="strap-card">
+                                    <div class="strap-preview strap-black"></div>
+                                    <div class="strap-name">Cuero Negro</div>
+                                    <div class="strap-price">+€20</div>
+                                </div>
+                            </label>
+                            
+                            <label class="strap-option">
+                                <input type="radio" name="strap" value="metal" class="strap-radio">
+                                <div class="strap-card">
+                                    <div class="strap-preview strap-metal"></div>
+                                    <div class="strap-name">Acero Inoxidable</div>
+                                    <div class="strap-price">+€45</div>
+                                </div>
+                            </label>
+                            
+                            <label class="strap-option">
+                                <input type="radio" name="strap" value="nylon" class="strap-radio">
+                                <div class="strap-card">
+                                    <div class="strap-preview strap-nylon"></div>
+                                    <div class="strap-name">Nylon Deportivo</div>
+                                    <div class="strap-price">+€15</div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Botones de Acción -->
+                <div class="action-buttons">
+                    <button class="btn btn-primary">Añadir al Carrito - €299.99</button>
+                    <button class="btn btn-secondary">Añadir a Favoritos</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Productos Relacionados -->
+        <section class="related-section">
+            <h2>Productos Relacionados</h2>
+            <div class="carousel">
+                <!-- Producto 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="../img/img_catalogo/reloj13.jpg" alt="Reloj Plateado">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">Reloj Elegance Silver</h3>
+                        <p class="product-description">Diseño minimalista y moderno</p>
+                        <div class="product-footer">
+                            <span class="product-price">€249.99</span>
+                            <a href="#" class="view-more">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Producto 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="../img/img_catalogo/reloj12.jpg" alt="Reloj Deportivo">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">Reloj Sport Pro</h3>
+                        <p class="product-description">Resistente al agua y golpes</p>
+                        <div class="product-footer">
+                            <span class="product-price">€189.99</span>
+                            <a href="#" class="view-more">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Producto 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="../img/img_catalogo/reloj14.jpg" alt="Reloj Vintage">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">Reloj Vintage Gold</h3>
+                        <p class="product-description">Estilo clásico atemporal</p>
+                        <div class="product-footer">
+                            <span class="product-price">€399.99</span>
+                            <a href="#" class="view-more">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Producto 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="../img/img_catalogo/reloj4.jpg" alt="Reloj Inteligente">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">Smart Watch Pro</h3>
+                        <p class="product-description">Tecnología avanzada</p>
+                        <div class="product-footer">
+                            <span class="product-price">€449.99</span>
+                            <a href="#" class="view-more">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Producto 5 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="../img/img_catalogo/reloj5.jpg" alt="Reloj Minimalista">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">Reloj Minimal White</h3>
+                        <p class="product-description">Simplicidad y elegancia</p>
+                        <div class="product-footer">
+                            <span class="product-price">€199.99</span>
+                            <a href="#" class="view-more">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Información Adicional -->
+        <div class="info-grid">
+            <div class="info-card">
+                <div class="info-icon icon-shipping">📦</div>
+                <h3 class="info-title">Envío Gratuito</h3>
+                <p class="info-description">En pedidos superiores a €50</p>
+            </div>
+
+            <div class="info-card">
+                <div class="info-icon icon-warranty">✓</div>
+                <h3 class="info-title">Garantía 2 Años</h3>
+                <p class="info-description">Cobertura completa del fabricante</p>
+            </div>
+
+            <div class="info-card">
+                <div class="info-icon icon-return">↩</div>
+                <h3 class="info-title">Devolución 30 Días</h3>
+                <p class="info-description">Sin preguntas, reembolso completo</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
